@@ -1,0 +1,38 @@
+.board {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.info {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    background: #016DD9;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}

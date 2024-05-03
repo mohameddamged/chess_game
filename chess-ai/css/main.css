@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    background: #016DD9;
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    background-color: #eee;
+}
+.container{
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
